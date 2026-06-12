@@ -1,3 +1,39 @@
-notebooks/data
-notebooks/cifar_net.pth
+# Dữ liệu cuộc thi (Không nên đẩy lên GitHub vì file lớn và bản quyền Kaggle)
+data/
+*.zip
+*.csv
+!sample_submission.csv # Có thể giữ lại file mẫu nhỏ nếu muốn tham khảo, hoặc ignore hết
+
+# File cấu hình bảo mật / API Token của Kaggle
+.kaggle/
+kaggle.json
+
+# Bộ đệm Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python Cache & Môi trường ảo (Virtual Environments)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+/bin/
+/lib/
+/share/
+
+# Mô hình học máy đã huấn luyện (Model weights / checkpoints)
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.joblib
+*.h5
+
+# File tạm của Hệ điều hành và IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 .ipynb_checkpoints/
